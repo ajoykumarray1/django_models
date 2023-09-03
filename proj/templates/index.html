@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<title>Page title</title>
+<body>
+
+<h1>Today's class</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{f}}
+    <button type="submit">submit</button>
+    
+
+  </form>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> <b>{{a}}{{' '}}{{b}}</b> Fugiat omnis aliquid magnam sapiente, debitis ullam culpa architecto iste id optio ut numquam autem eos<br> error aspernatur mollitia a voluptatibus non.</p>
+</div>
+
+</body>
+</html>
